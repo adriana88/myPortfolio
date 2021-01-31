@@ -139,7 +139,7 @@ img {
   width: 100%; }
 
 #header-home {
-  background: url("/img/backgr.jpg") no-repeat center right/cover;
+  background: url("../img/backgr.jpg") no-repeat center right/cover;
   height: 120vh;
   opacity: 0.8;
   color: #fff; }
@@ -152,7 +152,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("/img/backgr.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/backgr.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
