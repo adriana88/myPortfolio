@@ -25,15 +25,10 @@
             height: 10rem; //on smartphones the showcase with typing effect will take much less space
             border-bottom: 3px solid $main-color;
             background-position: 20% 30%; //So the image is positioned the same on all pages
-
-            //Header content should not be visible on mobiles
-            .header-content{
-                display:none;
-            }
         }
 
         &-inner{
-            height:10rem;
+            height:500rem;
         }
     }
 

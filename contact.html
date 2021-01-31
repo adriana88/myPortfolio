@@ -7,6 +7,8 @@
     <script src="https://kit.fontawesome.com/e21df9c150.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon (3).ico">    
+
     <title>Contact Me</title>
 </head>
 <body>
@@ -28,14 +30,14 @@
     <div class="container">
         <h2 class="section-title">Contact me</h2>
         <div class="bottom-line"></div>
-        <p class="lead">here is how you can contact me</p>
-        <form method="POST" data-netlify="true" data-netlify-recaptcha="true"> <!--this is taken from netlify-->
+        <p class="lead">If you have any questions regarding my education or professional background, please do not hesitate to contact me.</p>
+        <form action="contact-form-handler.php" action="POST" data-netlify="true" data-netlify-recaptcha="true"> <!--this is taken from netlify-->
             <div class="text-fields">
-                <input type="text" class="text-input name-input" placeholder="First name" name="first name"/>
-                <input type="text" class="text-input subject-input" placeholder="Last name" name="last name"/>
-                <input type="email" class="text-input email-input" placeholder="email" name="email"/>
-                <input type="text" class="text-input phone-input" placeholder="phone" name="phone"/>
-                <textarea class="text-input message-input" placeholder="Enter your message" name="message"></textarea>
+                <input type="text" class="text-input name-input" placeholder="First name" name="firstName"/>
+                <input type="text" class="text-input subject-input" placeholder="Last name" name="lastName"/>
+                <input type="email" class="text-input email-input" placeholder="Email" name="Email"/>
+                <input type="text" class="text-input phone-input" placeholder="Phone" name="Phone"/>
+                <textarea class="text-input message-input" placeholder="Enter your message" name="Message"></textarea>
             <div class="my-2">
                 <div data-netlify-recaptcha="true"></div>
             </div>
@@ -57,12 +59,12 @@
             <div>
                 <i class="fas fa-phone fa-2x"></i>
                 <h3>Phone</h3>
-                <p>06769258414</p>
+                <p>+43 6769258414</p>
             </div>
             <div>
                 <i class="fas fa-address-card fa-2x"></i>
                 <h3>Address</h3>
-                <p>Lepoldauerstr. 163</p>
+                <p>Vienna</p>
             </div>
         </div>
     </div>
@@ -71,7 +73,7 @@
 <!--Section C-->
 <section id="contact-c" class="py-4 bg-main">
     <div class="container">
-    <h1>Contact me!</h1>
+    <h1>Adriana Wojtanowska</h1>
     </div>  
 </section>
 
@@ -79,12 +81,12 @@
 <!--footer-->
 <footer id="main-footer">
     <div class="footer-content container">
-        <p>Copyright &copy; 2019. All rights reserved</p>
+        <p>Copyright &copy; 2020. All rights reserved</p>
         <div class="social">
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-youtube"></i>
+            <a href="http://facebook.com" target="blank"><i class="fab fa-facebook"></i></a> <!--icons are not working. I guess fontawesoe link is broken here -check!!!-->
+            <a href="http://twitter.com" target="blank"><i class="fab fa-twitter"></i></a> <!--icons are not working. I guess fontawesoe link is broken here -check!!!-->
+            <a href="http://instagram.com" target="blank"><i class="fab fa-instagram"></i></a> <!--icons are not working. I guess fontawesoe link is broken here -check!!!-->
+            <a href="http://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
 </footer>
